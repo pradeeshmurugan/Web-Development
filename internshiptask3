@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Webpage design</title>
+       <!--  <link rel="stylesheet" href="S1.css"> -->
+<style>
+            
+ body{
+   background-image: url("image/car.jpg");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: auto;
+   background-attachment: fixed;
+   
+   
+    cursor: pointer;
+    
+ }
+ .head{
+    color:orange;
+    display: inline;
+ }
+ li{
+    display: inline;
+    margin-right: 100px;
+    
+ }
+
+ 
+ .one,#two{
+display:inline;
+padding:5px;
+
+
+ }
+ .s{
+    display: inline-block;
+ }
+
+ #two{
+    padding: 5px;
+    border-radius: 5px;
+   text-decoration: none;
+   background-color:orange
+   
+
+   
+ }
+ .one{
+    background-color: black;
+    border-right: none;
+    color: aliceblue;
+     
+ }
+ .form{
+   width:300px;
+   height:400px;
+   background-color: black;
+   position:relative;
+   
+   left:900px;
+   top:100px;
+   position:relative;
+   border-radius: 10px;
+ }
+ .l{
+   position:relative;
+   width:250px;
+   height:30px;
+   background-color: azure;
+   top:20px;
+   left:20px;
+   text-align: center;
+   border-radius: 10px;
+
+ }
+ .lo{
+
+   color: orange;
+   
+
+   
+ }
+.te{
+   
+   margin-bottom: 5px ;
+   margin-top: 10px;
+
+   position: relative;
+   top:30px;
+   border: none;
+   left:20px;
+   background:transparent;
+   width:250px;
+   height: 30px;
+   border-bottom:1px solid orange;
+   color:azure
+
+}
+.login{
+   position: relative;
+   top:50px;
+   background-color: orange;
+   width:250px;
+   height: 30px;
+   left:15px;
+   border-radius: 10px;
+   text-align: center;
+}
+.login:hover{
+  background-color: rgb(172, 24, 98);
+}
+ .p{
+   color: aliceblue;
+   position: relative;
+   top:70px;
+   font-size: 20px;
+   left:35px;
+ }
+ .an{
+    color: aliceblue;
+   position: relative;
+   top:40pxpx;
+   font-size: 20px;
+   left:50px;
+   text-decoration: none;
+   color:orange;
+
+ }
+ .sty{
+   width:200px;
+   height:200px;
+   background-color: rgb(230, 150, 230);
+   position:relative;
+   bottom: 350px;
+   margin: 10px;
+   font-size: 20px;
+   text-align: center;
+   color: orange;
+ }
+ .stt{
+   position: absolute;
+   top:20px;
+   left:100px;
+   z-index: 30;
+ }
+ .sty1{
+    width:200px;
+   height:200px;
+   background-color: rgb(33, 65, 37);
+   position:relative;
+   bottom: 350px;
+   margin: 10px;
+ }
+ .sttp{
+    position:static;
+   top:20px;
+   left:50px;
+   z-index: 30;
+
+ }
+
+ 
+ 
+
+ 
+ .sty2{
+    width:200px;
+   height:200px;
+   background-color: rgb(63, 35, 52);
+   position:absolute;
+   top: 125px;
+   margin: 220px;
+ }
+ .sty3{
+    width:200px;
+   height:200px;
+   background-color: rgb(229, 230, 150);
+   position:relative;
+   bottom: 770px;
+   margin: 10px;
+   left:210px
+ }
+ .sty:hover{
+   background-color: rgb(156, 130, 95);
+ }
+  .sty1:hover{
+   background-color: rgb(21, 102, 95);
+ }
+  .sty2:hover{
+   background-color: rgb(62, 22, 155);
+ }
+  .sty3:hover{
+   background-color: rgb(221, 248, 68);
+ }
+  </style>
+    </head>
+    <body>
+        <div class="top">
+            <ul>
+                <li><h1 class="head">PraRoz</h1></li>
+                <li>Home</li>
+                <li>About</li>
+                <li>Service</li>
+                <li>Design</li>
+                <li>Contact</li>
+                <li class="s">
+                  <input class="one" type="search" placeholder="type to search" height="5px">
+                  <button id="two" type="submit">search</button>
+                  </li>
+                
+            </ul>
+        </div>
+        
+
+        <div class="form">
+           <div class="l"> <h2 class="lo">Login Here</h2></div>
+           <input class="te" type="gmail" placeholder="Enter gmail">
+            <input class="te" type="password" placeholder="Enter password" >
+            <h2 class="login">Login</h2>
+            <p class="p">Don't have an account?<br>
+            <a class="an" href="#">Sin up</a>&nbsp &nbsp &nbsp  &nbsp &nbsp &nbsphere</p>
+        </div>
+        
+
+        <div class="sty"><h1 class="stt">web Design & <br> Development <br> Course </h1></div>
+        <div class="sty1"></div>
+        <div class="sty2"><h1></h1></div>
+        <div class="sty3"></div>
+
+       
+        
+    
+    </body>
+</html>
